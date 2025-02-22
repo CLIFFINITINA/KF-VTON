@@ -50,58 +50,9 @@ To capture multi-scale contextual information, we use a **Hourglass Encoder-Deco
 - **Modular Design / 模块化设计**: Easily extendable and customizable components.
   具有良好的扩展性和可定制性。
 
-## Installation / 安装
-```sh
-# Clone the repository / 克隆仓库
-git clone <repo-url>
-cd <repo-name>
 
-# Install dependencies / 安装依赖
-pip install -r requirements.txt
+
 ```
 
-## Usage / 使用方法
-### Training / 训练
-```sh
-python train.py --config config.yaml
-```
 
-### Inference / 推理
-```sh
-python test.py --input input_image.png --output output_image.png
-```
-
-## File Structure / 文件结构
-- `base_model.py` - Defines the base neural network structure, handling model training, weight loading, and learning rate adjustments.
-  `base_model.py` - 定义基础神经网络结构，负责模型训练、权重加载和学习率调整。
-- `seg_network.py` - Implements the segmentation model with:
-  `seg_network.py` - 实现分割模型，包含：
-  - **SPADE Normalization** for spatially adaptive feature modulation.
-    **SPADE 归一化**，用于空间自适应特征调整。
-  - **Coattention Mechanism** for learning feature alignment dynamically.
-    **协同注意力机制**，用于动态学习特征对齐。
-- `util.py` - Provides key utilities:
-  `util.py` - 提供关键工具函数：
-  - **TPS Transformation** for precise spatial adjustments.
-    **TPS 变换**，用于精确的空间调整。
-  - **Hourglass Network** for hierarchical feature extraction.
-    **Hourglass 网络**，用于层次化特征提取。
-  - **ResNet Blocks & Normalization Layers** for robust feature learning.
-    **ResNet 块和归一化层**，用于增强特征学习能力。
-
-## Citation / 参考文献
-If you use this work, please cite:
-如果您使用此项目，请引用：
-```
-@article{your_citation,
-  author = {Your Name},
-  title = {Deep Learning-Based Segmentation Model},
-  journal = {ACM Conference},
-  year = {202X},
-  doi = {10.1145/3673903}
-}
-```
-
-## License / 许可证
-[Specify License Here / 在此指定许可证]
 
