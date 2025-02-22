@@ -1,6 +1,8 @@
 # KF-VTON: Keypoints-Driven Flow Based Virtual Try-On Network
 # KF-VTON：基于关键点驱动的流动虚拟试穿网络
 
+contribute:Siyu Liu((https://github.com/OIUIU),Peiyan Lu(https://github.com/CLIFFINITINA)
+
 ## Introduction / 介绍
 This project is based on our research presented in [our ACM paper](https://dl.acm.org/doi/10.1145/3673903). The primary goal of this work is to address the challenge of accurate image segmentation by integrating SPADE normalization and a coattention mechanism. Traditional segmentation models struggle with inconsistent feature representation and ineffective cross-domain feature fusion. Our approach enhances segmentation performance by adapting normalization strategies and refining feature interactions.
 
